@@ -5,9 +5,87 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://www.hdwallpapers.in/download/trees_cloud_fog_landscape-wide.jpg");
+  background-size: cover;
+  
+ 
+  
+}
+*{
+  box-sizing: border-box;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App
+{
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  
+  color: rgb(250, 250, 250);
+ 
+}
+
+#btn :hover
+{
+  background-color: aqua !important;
+}
+.cardmain{
+  overflow: hidden;
+ width: 300PX;
+  height: 300px;
+  margin: auto;
+ 
+  box-shadow: 5px 10px  10px #888888;
+  color: white;
+  border-radius: 8px;
+  background-image: url("https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdlYXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+
+}
+.formbg{
+  margin-bottom: 10px;
+
+
+}
+
+.inputField{
+  width: 240px;
+  height: 27px;
+
+}
+.btn{
+  height: 27px;
+}
+.btn:hover
+{
+  background-color: rgb(130, 159, 255);
+}
+.wheather{
+  background-color: rgb(130, 212, 245) !important;
+  color: rgb(255, 255, 255) !important;
+  text-align: center;
+  margin: auto;
+  display: flex;
+
+}
+
+@media (max-width: 800px ){
+  body{
+    background-image: url("https://r1.ilikewallpaper.net/iphone-8-wallpapers/download/22716/Nature-Green-Land-And-Blue-Sky-iphone-8-wallpaper-ilikewallpaper_com_200.jpg");
+  background-size: cover;
+  }
+  .cardmain{
+    overflow: hidden;
+    width: 300PX;
+    height: 300px;
+    margin: auto;
+   
+    box-shadow: 5px 10px  10px #888888;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background-image: url("https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdlYXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  
+  } 
+  
 }
